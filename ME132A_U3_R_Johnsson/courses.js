@@ -4,6 +4,7 @@ let courses = DATABASE.courses;
 
 
 
+
 function getCourse(id) {
     let course = DATABASE.courses[id];
     let div = document.createElement("div");
