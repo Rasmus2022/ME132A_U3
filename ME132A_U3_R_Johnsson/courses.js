@@ -5,6 +5,7 @@ let courses = DATABASE.courses;
 
 
 
+ 
 
 function getCourse(id) {
     let course = DATABASE.courses[id];
