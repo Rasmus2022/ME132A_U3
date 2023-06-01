@@ -1,0 +1,125 @@
+body {
+    background-color: #1F1F1F;
+    margin: 15px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+}
+
+.done {
+    margin: 3px;
+    padding: 2px;
+    background-color: rgba(179, 230, 179, 0.705);
+    text-align: center;
+    border: #FFFFFF solid 1px;
+}
+
+
+.notdone {
+    border: #FFFFFF solid 1px;
+    padding: 2px;
+    margin: 3px;
+    opacity: 40%;
+    text-align: center;
+}
+
+
+#coursesSearchField {
+    border: solid 2px #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 50px;
+    border-bottom: white solid 1px;
+}
+
+
+form {
+    text-align: center;
+}
+
+
+header {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+h4 {
+    margin: 10px;
+}
+
+
+#p2 {
+    opacity: 30%;
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+
+#students {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.teacherBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    margin: 3px;
+    padding: 2px;
+    color: #FFFFFF;
+}
+
+
+#teachersWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#teachersResp {
+    background-color: #ED1C24;
+    border: #FFFFFF solid 1px;
+    margin: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#teachers {
+    border: #FFFFFF solid 1px;
+    margin: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+}
+
+
+#border {
+    border-bottom: 5px red solid;
+}
